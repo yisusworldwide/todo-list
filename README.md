@@ -1,26 +1,8 @@
-# todo-list
-This is a responsive Todo List, written in ReactJS, where you can add, toggle and delete todos.
+# React + Vite
 
-## Technical infomation
-This project is created with Vite.
-https://vitejs.dev/
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The data is stored in LocalStorage via 'useEffect' function.
+Currently, two official plugins are available:
 
-## Procedure 
-With NPM in your local console:
-
-$npm create vite@latest
-
-choose "react" from the supported template presets
-
-pick a project name
-
-cd my-project //project name folder
-
-npm install
-
-npm run dev
-
-### URL
-Running in local:   http://127.0.0.1:5173/
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
